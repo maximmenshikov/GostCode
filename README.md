@@ -4,7 +4,7 @@ This program inserts code in text form to Microsoft Word documents. This allows 
 
 ## Usage
 
- - Prepare template.doc. Insert "<Inject>" and "<ListCount>" text in the document. Later it will be replaced with the actual content.
+ - Prepare template.doc. Insert "\<Inject\>" and "\<ListCount\>" text in the document. Later it will be replaced with the actual content.
  - Prepare file list yml. See the example in "example" directory.
  - Simply call the tool using the following command line:
 ```GostCode.exe template.doc out.doc C:\ProjectDirectory FileList.yml```
