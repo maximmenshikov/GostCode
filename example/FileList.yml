@@ -1,0 +1,23 @@
+group_style: "Heading 1"
+annotation_style: "Normal"
+file_name_style: "Heading 2"
+code_style: "Normal"
+groups:
+ - name: Crazy module
+   annotation: |
+      This submodule adds a crazy feature to the project. Check it out!
+   folders:
+     - "lib\\crazy"
+   filters:
+     - "*.hpp"
+     - "*.cpp"
+     - "CMakeLists.txt"
+ - name: Module doing nothing
+   annotation: |
+      This module doesn't do anything at all, but still is a part of this example.
+   folders:
+     - "lib\\donothing"
+   filters:
+     - "*.hpp"
+     - "*.cpp"
+     - "CMakeLists.txt"
